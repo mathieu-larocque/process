@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ alert("b");
 var app = {
     // Application Constructor
     initialize: function() {
@@ -35,9 +36,9 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        cordova.exec(callback, function(err) {
-            callback('Nothing to echo.');
-        }, "Process", "process", [str]);
+        window.process(function(){
+            alert("success");
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

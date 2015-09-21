@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ alert("b");
 var app = {
     // Application Constructor
     initialize: function() {
@@ -34,6 +35,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        window.process(function(){
+            alert("success");
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

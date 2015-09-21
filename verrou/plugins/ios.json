@@ -9,7 +9,7 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "xml": "<feature name=\"Process\"><param name=\"ios-package\" value=\"Process\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -18,7 +18,7 @@
         }
     },
     "installed_plugins": {
-        "org.apache.cordova.device": {
+        "cordova-plugin-process": {
             "PACKAGE_NAME": "com.verrou.project"
         }
     },

@@ -1,0 +1,15 @@
+2015-09-21 15:36:10.505 Verrou[16883:491706] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/613156E2-9775-4035-BE8F-4E762AA7CAF3/Library/Cookies/Cookies.binarycookies
+2015-09-21 15:36:10.705 Verrou[16883:491706] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-21 15:36:10.706 Verrou[16883:491706] Multi-tasking -> Device: YES, App: YES
+2015-09-21 15:36:10.718 Verrou[16883:491706] Unlimited access to network resources
+2015-09-21 15:36:10.724 Verrou[16883:491706] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-21 15:36:11.018 Verrou[16883:491706] Resetting plugins due to page load.
+2015-09-21 15:36:17.469 Verrou[16883:491706] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/2E897062-C560-47AF-9CAB-31D826F9BA64/Verrou.app/www/index.html
+2015-09-21 15:36:22.457 Verrou[16883:491706] THREAD WARNING: ['Process'] took '1680.552979' ms. Plugin should use a background thread.
