@@ -5,11 +5,37 @@
     },
     "config_munge": {
         "files": {
+            "framework": {
+                "parents": {
+                    "CoreBluetooth.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
             "config.xml": {
                 "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"BLE\"><param name=\"ios-package\" onload=\"true\" value=\"BLECentralPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ],
                     "/*": [
                         {
-                            "xml": "<feature name=\"Process\"><param name=\"ios-package\" value=\"Process\" /></feature>",
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -18,7 +44,13 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-process": {
+        "cordova-plugin-ble-central": {
+            "PACKAGE_NAME": "com.verrou.project"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.verrou.project"
+        },
+        "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.verrou.project"
         }
     },

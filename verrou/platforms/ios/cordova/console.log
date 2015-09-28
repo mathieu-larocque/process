@@ -1,8 +1,8 @@
-2015-09-21 15:36:10.505 Verrou[16883:491706] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/613156E2-9775-4035-BE8F-4E762AA7CAF3/Library/Cookies/Cookies.binarycookies
-2015-09-21 15:36:10.705 Verrou[16883:491706] Apache Cordova native platform version 3.9.1 is starting.
-2015-09-21 15:36:10.706 Verrou[16883:491706] Multi-tasking -> Device: YES, App: YES
-2015-09-21 15:36:10.718 Verrou[16883:491706] Unlimited access to network resources
-2015-09-21 15:36:10.724 Verrou[16883:491706] 
+2015-09-28 11:06:04.158 Verrou[26713:684089] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/0ACC72BD-11EC-4BEF-A683-F5458B6F2371/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:06:04.660 Verrou[26713:684089] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:06:04.661 Verrou[26713:684089] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:06:04.733 Verrou[26713:684089] Unlimited access to network resources
+2015-09-28 11:06:04.739 Verrou[26713:684089] 
 
 Started backup to iCloud! Please be careful.
 Your application might be rejected by Apple if you store too much data.
@@ -10,6 +10,830 @@ For more information please read "iOS Data Storage Guidelines" at:
 https://developer.apple.com/icloud/documentation/data-storage/
 To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
 
-2015-09-21 15:36:11.018 Verrou[16883:491706] Resetting plugins due to page load.
-2015-09-21 15:36:17.469 Verrou[16883:491706] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/2E897062-C560-47AF-9CAB-31D826F9BA64/Verrou.app/www/index.html
-2015-09-21 15:36:22.457 Verrou[16883:491706] THREAD WARNING: ['Process'] took '1680.552979' ms. Plugin should use a background thread.
+2015-09-28 11:06:04.925 Verrou[26713:684089] Cordova BLE Central Plugin
+2015-09-28 11:06:04.925 Verrou[26713:684089] (c)2014-2015 Don Coleman
+2015-09-28 11:06:04.986 Verrou[26713:684089] [CDVTimer][ble] 74.588001ms
+2015-09-28 11:06:04.986 Verrou[26713:684089] [CDVTimer][TotalPluginStartup] 74.883997ms
+2015-09-28 11:06:05.005 Verrou[26713:684089] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:06:05.005 Verrou[26713:684089] =============================================================
+2015-09-28 11:06:05.005 Verrou[26713:684089] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:06:05.005 Verrou[26713:684089] =============================================================
+2015-09-28 11:06:05.426 Verrou[26713:684089] Resetting plugins due to page load.
+2015-09-28 11:06:41.981 Verrou[26713:684129] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-09-28 11:06:43.786 Verrou[26713:684089] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/8CEEA109-A973-4948-B876-0E57217F9508/Verrou.app/www/index.html
+2015-09-28 11:07:54.339 Verrou[26840:685269] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/1B6168DC-C603-47F1-85F3-1C54346F9466/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:07:54.607 Verrou[26840:685269] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:07:54.607 Verrou[26840:685269] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:07:54.624 Verrou[26840:685269] Unlimited access to network resources
+2015-09-28 11:07:54.637 Verrou[26840:685269] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:07:54.731 Verrou[26840:685269] Cordova BLE Central Plugin
+2015-09-28 11:07:54.731 Verrou[26840:685269] (c)2014-2015 Don Coleman
+2015-09-28 11:07:54.750 Verrou[26840:685269] [CDVTimer][ble] 19.213021ms
+2015-09-28 11:07:54.750 Verrou[26840:685269] [CDVTimer][TotalPluginStartup] 19.375026ms
+2015-09-28 11:07:54.759 Verrou[26840:685269] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:07:54.760 Verrou[26840:685269] =============================================================
+2015-09-28 11:07:54.760 Verrou[26840:685269] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:07:54.760 Verrou[26840:685269] =============================================================
+2015-09-28 11:07:55.090 Verrou[26840:685269] Resetting plugins due to page load.
+2015-09-28 11:07:55.364 Verrou[26840:685269] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/BDE9C540-D144-49C2-9FC2-5E5EE21EEFCF/Verrou.app/www/index.html
+2015-09-28 11:10:48.773 Verrou[26960:686791] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/CD9C590E-60D8-400B-BC73-189F8C7FEB3E/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:10:49.013 Verrou[26960:686791] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:10:49.013 Verrou[26960:686791] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:10:49.034 Verrou[26960:686791] Unlimited access to network resources
+2015-09-28 11:10:49.046 Verrou[26960:686791] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:10:49.168 Verrou[26960:686791] Cordova BLE Central Plugin
+2015-09-28 11:10:49.168 Verrou[26960:686791] (c)2014-2015 Don Coleman
+2015-09-28 11:10:49.186 Verrou[26960:686791] [CDVTimer][ble] 17.760038ms
+2015-09-28 11:10:49.186 Verrou[26960:686791] [CDVTimer][TotalPluginStartup] 18.087029ms
+2015-09-28 11:10:49.200 Verrou[26960:686791] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:10:49.200 Verrou[26960:686791] =============================================================
+2015-09-28 11:10:49.200 Verrou[26960:686791] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:10:49.200 Verrou[26960:686791] =============================================================
+2015-09-28 11:10:49.541 Verrou[26960:686791] Resetting plugins due to page load.
+2015-09-28 11:10:49.950 Verrou[26960:686791] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/EA9034AE-53AF-4DFF-8873-3084DDFE9551/Verrou.app/www/index.html
+2015-09-28 11:23:05.956 Verrou[27084:690822] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/CCFBFB9D-06A6-4DBC-A82B-DCA778803DD8/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:23:06.091 Verrou[27084:690822] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:23:06.091 Verrou[27084:690822] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:23:06.101 Verrou[27084:690822] Unlimited access to network resources
+2015-09-28 11:23:06.108 Verrou[27084:690822] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:23:06.206 Verrou[27084:690822] Cordova BLE Central Plugin
+2015-09-28 11:23:06.206 Verrou[27084:690822] (c)2014-2015 Don Coleman
+2015-09-28 11:23:06.222 Verrou[27084:690822] [CDVTimer][ble] 16.140044ms
+2015-09-28 11:23:06.223 Verrou[27084:690822] [CDVTimer][TotalPluginStartup] 16.413033ms
+2015-09-28 11:23:06.233 Verrou[27084:690822] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:23:06.233 Verrou[27084:690822] =============================================================
+2015-09-28 11:23:06.233 Verrou[27084:690822] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:23:06.233 Verrou[27084:690822] =============================================================
+2015-09-28 11:23:06.428 Verrou[27084:690822] Resetting plugins due to page load.
+2015-09-28 11:25:29.477 Verrou[27084:690878] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-09-28 11:25:29.519 Verrou[27084:690822] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/A4ADAD48-79C8-4605-B971-660BA7D3A0EA/Verrou.app/www/index.html
+2015-09-28 11:32:11.264 Verrou[27172:693716] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/F8813371-73EF-4653-870C-22D27DD09D55/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:32:11.468 Verrou[27172:693716] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:32:11.468 Verrou[27172:693716] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:32:11.480 Verrou[27172:693716] Unlimited access to network resources
+2015-09-28 11:32:11.496 Verrou[27172:693716] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:32:11.592 Verrou[27172:693716] Cordova BLE Central Plugin
+2015-09-28 11:32:11.593 Verrou[27172:693716] (c)2014-2015 Don Coleman
+2015-09-28 11:32:11.610 Verrou[27172:693716] [CDVTimer][ble] 17.991006ms
+2015-09-28 11:32:11.611 Verrou[27172:693716] [CDVTimer][TotalPluginStartup] 18.406987ms
+2015-09-28 11:32:11.624 Verrou[27172:693716] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:32:11.625 Verrou[27172:693716] =============================================================
+2015-09-28 11:32:11.625 Verrou[27172:693716] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:32:11.625 Verrou[27172:693716] =============================================================
+2015-09-28 11:32:11.870 Verrou[27172:693716] Resetting plugins due to page load.
+2015-09-28 11:33:23.564 Verrou[27172:693794] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-09-28 11:33:23.610 Verrou[27172:693716] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/3F45B29D-9B46-4C9C-9365-63651592D085/Verrou.app/www/index.html
+2015-09-28 11:36:17.560 Verrou[27236:695241] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/A5146919-996C-45DD-BD2A-77CDE0DE702C/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:36:17.777 Verrou[27236:695241] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:36:17.778 Verrou[27236:695241] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:36:17.796 Verrou[27236:695241] Unlimited access to network resources
+2015-09-28 11:36:17.817 Verrou[27236:695241] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:36:17.908 Verrou[27236:695241] Cordova BLE Central Plugin
+2015-09-28 11:36:17.908 Verrou[27236:695241] (c)2014-2015 Don Coleman
+2015-09-28 11:36:17.923 Verrou[27236:695241] [CDVTimer][ble] 15.232027ms
+2015-09-28 11:36:17.924 Verrou[27236:695241] [CDVTimer][TotalPluginStartup] 15.628994ms
+2015-09-28 11:36:17.937 Verrou[27236:695241] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:36:17.937 Verrou[27236:695241] =============================================================
+2015-09-28 11:36:17.937 Verrou[27236:695241] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:36:17.937 Verrou[27236:695241] =============================================================
+2015-09-28 11:36:18.144 Verrou[27236:695241] Resetting plugins due to page load.
+2015-09-28 11:36:24.419 Verrou[27236:695241] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/D1CFC8A3-EDB7-423E-A369-37B4E9D2BB9E/Verrou.app/www/index.html
+2015-09-28 11:38:08.106 Verrou[27386:696406] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/533FC764-11E0-41F5-9733-C69CA2C67CFD/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:38:08.264 Verrou[27386:696406] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:38:08.265 Verrou[27386:696406] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:38:08.346 Verrou[27386:696406] Unlimited access to network resources
+2015-09-28 11:38:08.351 Verrou[27386:696406] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:38:08.993 Verrou[27386:696406] Cordova BLE Central Plugin
+2015-09-28 11:38:08.993 Verrou[27386:696406] (c)2014-2015 Don Coleman
+2015-09-28 11:38:08.995 Verrou[27386:696406] [CDVTimer][ble] 1.634955ms
+2015-09-28 11:38:08.995 Verrou[27386:696406] [CDVTimer][TotalPluginStartup] 1.794994ms
+2015-09-28 11:38:09.005 Verrou[27386:696406] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:38:09.005 Verrou[27386:696406] =============================================================
+2015-09-28 11:38:09.005 Verrou[27386:696406] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:38:09.005 Verrou[27386:696406] =============================================================
+2015-09-28 11:38:09.044 Verrou[27386:696406] Resetting plugins due to page load.
+2015-09-28 11:38:15.495 Verrou[27386:696406] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/2FF9D910-840A-4D4B-B85A-FC1E3129B992/Verrou.app/www/index.html
+2015-09-28 11:38:58.968 Verrou[27450:697021] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/EFA503CD-1484-44BA-B4F7-E89C9DD53430/Library/Cookies/Cookies.binarycookies
+2015-09-28 11:38:59.091 Verrou[27450:697021] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 11:38:59.092 Verrou[27450:697021] Multi-tasking -> Device: YES, App: YES
+2015-09-28 11:38:59.104 Verrou[27450:697021] Unlimited access to network resources
+2015-09-28 11:38:59.108 Verrou[27450:697021] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 11:38:59.190 Verrou[27450:697021] Cordova BLE Central Plugin
+2015-09-28 11:38:59.190 Verrou[27450:697021] (c)2014-2015 Don Coleman
+2015-09-28 11:38:59.207 Verrou[27450:697021] [CDVTimer][ble] 16.708016ms
+2015-09-28 11:38:59.207 Verrou[27450:697021] [CDVTimer][TotalPluginStartup] 17.107010ms
+2015-09-28 11:38:59.221 Verrou[27450:697021] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 11:38:59.221 Verrou[27450:697021] =============================================================
+2015-09-28 11:38:59.221 Verrou[27450:697021] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 11:38:59.221 Verrou[27450:697021] =============================================================
+2015-09-28 11:38:59.427 Verrou[27450:697021] Resetting plugins due to page load.
+2015-09-28 13:16:50.888 Verrou[27608:723308] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/0AB83D5D-D05D-4B4C-BED4-9844A19DAF26/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:16:51.254 Verrou[27608:723308] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:16:51.254 Verrou[27608:723308] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:16:51.257 Verrou[27608:723308] Unlimited access to network resources
+2015-09-28 13:16:51.271 Verrou[27608:723308] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:16:51.410 Verrou[27608:723308] Cordova BLE Central Plugin
+2015-09-28 13:16:51.410 Verrou[27608:723308] (c)2014-2015 Don Coleman
+2015-09-28 13:16:51.419 Verrou[27608:723308] [CDVTimer][ble] 8.713961ms
+2015-09-28 13:16:51.419 Verrou[27608:723308] [CDVTimer][TotalPluginStartup] 8.892000ms
+2015-09-28 13:16:51.447 Verrou[27608:723308] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:16:51.447 Verrou[27608:723308] =============================================================
+2015-09-28 13:16:51.447 Verrou[27608:723308] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:16:51.448 Verrou[27608:723308] =============================================================
+2015-09-28 13:16:52.015 Verrou[27608:723308] Resetting plugins due to page load.
+2015-09-28 13:16:59.091 Verrou[27608:723308] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/A54EC649-3ECE-4646-89CD-C17CE795369D/Verrou.app/www/index.html
+2015-09-28 13:17:38.340 Verrou[27665:724068] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/B0C3BEDE-D607-4C8A-972B-2212B0F967D2/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:17:38.420 Verrou[27665:724068] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:17:38.421 Verrou[27665:724068] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:17:38.423 Verrou[27665:724068] Unlimited access to network resources
+2015-09-28 13:17:38.426 Verrou[27665:724068] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:17:38.533 Verrou[27665:724068] Cordova BLE Central Plugin
+2015-09-28 13:17:38.533 Verrou[27665:724068] (c)2014-2015 Don Coleman
+2015-09-28 13:17:38.535 Verrou[27665:724068] [CDVTimer][ble] 1.951993ms
+2015-09-28 13:17:38.535 Verrou[27665:724068] [CDVTimer][TotalPluginStartup] 2.225995ms
+2015-09-28 13:17:38.577 Verrou[27665:724068] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:17:38.577 Verrou[27665:724068] =============================================================
+2015-09-28 13:17:38.577 Verrou[27665:724068] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:17:38.577 Verrou[27665:724068] =============================================================
+2015-09-28 13:17:38.604 Verrou[27665:724068] Resetting plugins due to page load.
+2015-09-28 13:17:46.205 Verrou[27665:724068] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/3F26A641-2133-4402-9790-1D5576967927/Verrou.app/www/index.html
+2015-09-28 13:19:03.943 Verrou[27728:725073] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/C2C39B3A-9D15-459C-A3AE-18E39BA84EB6/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:19:04.028 Verrou[27728:725073] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:19:04.029 Verrou[27728:725073] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:19:04.031 Verrou[27728:725073] Unlimited access to network resources
+2015-09-28 13:19:04.033 Verrou[27728:725073] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:19:04.111 Verrou[27728:725073] Cordova BLE Central Plugin
+2015-09-28 13:19:04.111 Verrou[27728:725073] (c)2014-2015 Don Coleman
+2015-09-28 13:19:04.113 Verrou[27728:725073] [CDVTimer][ble] 1.758993ms
+2015-09-28 13:19:04.113 Verrou[27728:725073] [CDVTimer][TotalPluginStartup] 1.963019ms
+2015-09-28 13:19:04.136 Verrou[27728:725073] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:19:04.136 Verrou[27728:725073] =============================================================
+2015-09-28 13:19:04.136 Verrou[27728:725073] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:19:04.137 Verrou[27728:725073] =============================================================
+2015-09-28 13:19:04.163 Verrou[27728:725073] Resetting plugins due to page load.
+2015-09-28 13:19:17.093 Verrou[27728:725127] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-09-28 13:19:17.132 Verrou[27728:725073] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/F5C613C0-4655-48EB-BE60-0E1EAF910016/Verrou.app/www/index.html
+2015-09-28 13:37:05.485 Verrou[27806:730064] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/286361CD-D381-4439-96DD-545EA4D4C4ED/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:37:05.671 Verrou[27806:730064] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:37:05.671 Verrou[27806:730064] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:37:05.687 Verrou[27806:730064] Unlimited access to network resources
+2015-09-28 13:37:05.708 Verrou[27806:730064] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:37:05.806 Verrou[27806:730064] Cordova BLE Central Plugin
+2015-09-28 13:37:05.806 Verrou[27806:730064] (c)2014-2015 Don Coleman
+2015-09-28 13:37:05.824 Verrou[27806:730064] [CDVTimer][ble] 17.536998ms
+2015-09-28 13:37:05.824 Verrou[27806:730064] [CDVTimer][TotalPluginStartup] 17.853975ms
+2015-09-28 13:37:05.837 Verrou[27806:730064] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:37:05.837 Verrou[27806:730064] =============================================================
+2015-09-28 13:37:05.838 Verrou[27806:730064] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:37:05.838 Verrou[27806:730064] =============================================================
+2015-09-28 13:37:06.100 Verrou[27806:730064] Resetting plugins due to page load.
+2015-09-28 13:37:12.811 Verrou[27806:730064] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/B1AA394F-7E9B-462E-890C-514293719F64/Verrou.app/www/index.html
+2015-09-28 13:37:44.755 Verrou[27867:730767] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/60277E47-E73E-4652-B811-921899A94E9F/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:37:44.823 Verrou[27867:730767] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:37:44.823 Verrou[27867:730767] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:37:44.825 Verrou[27867:730767] Unlimited access to network resources
+2015-09-28 13:37:44.827 Verrou[27867:730767] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:37:44.900 Verrou[27867:730767] Cordova BLE Central Plugin
+2015-09-28 13:37:44.900 Verrou[27867:730767] (c)2014-2015 Don Coleman
+2015-09-28 13:37:44.902 Verrou[27867:730767] [CDVTimer][ble] 2.179027ms
+2015-09-28 13:37:44.902 Verrou[27867:730767] [CDVTimer][TotalPluginStartup] 2.358019ms
+2015-09-28 13:37:44.912 Verrou[27867:730767] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:37:44.912 Verrou[27867:730767] =============================================================
+2015-09-28 13:37:44.912 Verrou[27867:730767] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:37:44.912 Verrou[27867:730767] =============================================================
+2015-09-28 13:37:44.992 Verrou[27867:730767] Resetting plugins due to page load.
+2015-09-28 13:37:51.096 Verrou[27867:730767] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/60ED672C-26FB-4DC4-B919-FAD101C27DE7/Verrou.app/www/index.html
+2015-09-28 13:37:51.177 Verrou[27867:730767] device start
+2015-09-28 13:37:51.210 Verrou[27867:730767] app init
+2015-09-28 13:37:51.211 Verrou[27867:730767] bind start
+2015-09-28 13:37:51.211 Verrou[27867:730767] bind end
+2015-09-28 13:37:51.211 Verrou[27867:730767] app init end
+2015-09-28 13:37:51.211 Verrou[27867:730767] Received Event: deviceready
+2015-09-28 13:37:51.212 Verrou[27867:730767] device end
+2015-09-28 13:41:12.915 Verrou[27934:732125] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/4B4972AF-5989-459A-BE6C-13FAB64EFE06/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:41:13.026 Verrou[27934:732125] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:41:13.026 Verrou[27934:732125] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:41:13.028 Verrou[27934:732125] Unlimited access to network resources
+2015-09-28 13:41:13.030 Verrou[27934:732125] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:41:13.105 Verrou[27934:732125] Cordova BLE Central Plugin
+2015-09-28 13:41:13.105 Verrou[27934:732125] (c)2014-2015 Don Coleman
+2015-09-28 13:41:13.107 Verrou[27934:732125] [CDVTimer][ble] 1.598001ms
+2015-09-28 13:41:13.107 Verrou[27934:732125] [CDVTimer][TotalPluginStartup] 1.757026ms
+2015-09-28 13:41:13.137 Verrou[27934:732125] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:41:13.137 Verrou[27934:732125] =============================================================
+2015-09-28 13:41:13.137 Verrou[27934:732125] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:41:13.137 Verrou[27934:732125] =============================================================
+2015-09-28 13:41:13.164 Verrou[27934:732125] Resetting plugins due to page load.
+2015-09-28 13:41:21.037 Verrou[27934:732125] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/E24CF2B2-301A-4B08-8265-C84624F285CA/Verrou.app/www/index.html
+2015-09-28 13:41:21.088 Verrou[27934:732125] device start
+2015-09-28 13:41:21.097 Verrou[27934:732125] app init
+2015-09-28 13:41:21.098 Verrou[27934:732125] bind start
+2015-09-28 13:41:21.098 Verrou[27934:732125] bind end
+2015-09-28 13:41:21.098 Verrou[27934:732125] app init end
+2015-09-28 13:41:21.098 Verrou[27934:732125] Received Event: deviceready
+2015-09-28 13:41:21.098 Verrou[27934:732125] device end
+2015-09-28 13:41:22.808 Verrou[27934:732125] click
+2015-09-28 13:41:22.867 Verrou[27934:732125] click
+2015-09-28 13:41:22.999 Verrou[27934:732125] click
+2015-09-28 13:41:23.084 Verrou[27934:732125] click
+2015-09-28 13:41:23.469 Verrou[27934:732125] click
+2015-09-28 13:41:23.533 Verrou[27934:732125] click
+2015-09-28 13:41:23.715 Verrou[27934:732125] click
+2015-09-28 13:41:23.818 Verrou[27934:732125] click
+2015-09-28 13:41:24.820 Verrou[27934:732125] click
+2015-09-28 13:41:24.972 Verrou[27934:732125] click
+2015-09-28 13:41:25.091 Verrou[27934:732125] click
+2015-09-28 13:41:25.186 Verrou[27934:732125] click
+2015-09-28 13:41:25.386 Verrou[27934:732125] click
+2015-09-28 13:41:25.498 Verrou[27934:732125] click
+2015-09-28 13:41:25.498 Verrou[27934:732125] click
+2015-09-28 13:41:25.503 Verrou[27934:732125] click
+2015-09-28 13:43:56.531 Verrou[28074:733519] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/2183A108-E9F0-4CCC-83FC-971F78A7CA32/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:43:56.706 Verrou[28074:733519] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:43:56.706 Verrou[28074:733519] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:43:56.714 Verrou[28074:733519] Unlimited access to network resources
+2015-09-28 13:43:56.716 Verrou[28074:733519] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:43:56.806 Verrou[28074:733519] Cordova BLE Central Plugin
+2015-09-28 13:43:56.806 Verrou[28074:733519] (c)2014-2015 Don Coleman
+2015-09-28 13:43:56.818 Verrou[28074:733519] [CDVTimer][ble] 12.543976ms
+2015-09-28 13:43:56.819 Verrou[28074:733519] [CDVTimer][TotalPluginStartup] 12.795985ms
+2015-09-28 13:43:56.829 Verrou[28074:733519] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:43:56.829 Verrou[28074:733519] =============================================================
+2015-09-28 13:43:56.830 Verrou[28074:733519] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:43:56.830 Verrou[28074:733519] =============================================================
+2015-09-28 13:43:57.114 Verrou[28074:733519] Resetting plugins due to page load.
+2015-09-28 13:44:05.441 Verrou[28074:733519] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/13475AA8-726C-48D5-AB87-B7D0E732EEFE/Verrou.app/www/index.html
+2015-09-28 13:44:05.480 Verrou[28074:733519] device start
+2015-09-28 13:44:05.482 Verrou[28074:733519] app init
+2015-09-28 13:44:05.482 Verrou[28074:733519] bind start
+2015-09-28 13:44:05.482 Verrou[28074:733519] bind end
+2015-09-28 13:44:05.482 Verrou[28074:733519] app init end
+2015-09-28 13:44:05.482 Verrou[28074:733519] device end
+2015-09-28 13:45:00.607 Verrou[28166:734236] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/AD42D6B6-0FC1-4AD8-9F62-371C6FFEA062/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:45:00.711 Verrou[28166:734236] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:45:00.711 Verrou[28166:734236] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:45:00.718 Verrou[28166:734236] Unlimited access to network resources
+2015-09-28 13:45:00.721 Verrou[28166:734236] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:45:00.796 Verrou[28166:734236] Cordova BLE Central Plugin
+2015-09-28 13:45:00.796 Verrou[28166:734236] (c)2014-2015 Don Coleman
+2015-09-28 13:45:00.797 Verrou[28166:734236] [CDVTimer][ble] 1.712978ms
+2015-09-28 13:45:00.797 Verrou[28166:734236] [CDVTimer][TotalPluginStartup] 1.960039ms
+2015-09-28 13:45:00.821 Verrou[28166:734236] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:45:00.821 Verrou[28166:734236] =============================================================
+2015-09-28 13:45:00.821 Verrou[28166:734236] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:45:00.821 Verrou[28166:734236] =============================================================
+2015-09-28 13:45:00.848 Verrou[28166:734236] Resetting plugins due to page load.
+2015-09-28 13:45:09.465 Verrou[28166:734236] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/378D46E7-C94B-4479-91C2-B02E4489C44F/Verrou.app/www/index.html
+2015-09-28 13:45:09.502 Verrou[28166:734236] device start
+2015-09-28 13:45:09.507 Verrou[28166:734236] app init
+2015-09-28 13:45:09.507 Verrou[28166:734236] bind start
+2015-09-28 13:45:09.507 Verrou[28166:734236] bind end
+2015-09-28 13:45:09.507 Verrou[28166:734236] app init end
+2015-09-28 13:45:09.507 Verrou[28166:734236] device end
+2015-09-28 13:45:12.266 Verrou[28166:734236] click
+2015-09-28 13:45:13.195 Verrou[28166:734236] click
+2015-09-28 13:45:42.159 Verrou[28223:734834] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/E5F25999-E21D-4BD8-86AA-FCDA033360E8/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:45:42.312 Verrou[28223:734834] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:45:42.312 Verrou[28223:734834] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:45:42.333 Verrou[28223:734834] Unlimited access to network resources
+2015-09-28 13:45:42.337 Verrou[28223:734834] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:45:42.433 Verrou[28223:734834] Cordova BLE Central Plugin
+2015-09-28 13:45:42.433 Verrou[28223:734834] (c)2014-2015 Don Coleman
+2015-09-28 13:45:42.449 Verrou[28223:734834] [CDVTimer][ble] 15.432000ms
+2015-09-28 13:45:42.449 Verrou[28223:734834] [CDVTimer][TotalPluginStartup] 15.610993ms
+2015-09-28 13:45:42.459 Verrou[28223:734834] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:45:42.459 Verrou[28223:734834] =============================================================
+2015-09-28 13:45:42.459 Verrou[28223:734834] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:45:42.459 Verrou[28223:734834] =============================================================
+2015-09-28 13:45:42.718 Verrou[28223:734834] Resetting plugins due to page load.
+2015-09-28 13:45:45.888 Verrou[28223:734834] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/49AA1664-AF9D-4AF8-A356-3CC82564B3BE/Verrou.app/www/index.html
+2015-09-28 13:45:45.913 Verrou[28223:734834] device start
+2015-09-28 13:45:45.914 Verrou[28223:734834] app init
+2015-09-28 13:45:45.914 Verrou[28223:734834] bind start
+2015-09-28 13:45:45.914 Verrou[28223:734834] bind end
+2015-09-28 13:45:45.914 Verrou[28223:734834] app init end
+2015-09-28 13:45:45.915 Verrou[28223:734834] device end
+2015-09-28 13:45:53.298 Verrou[28223:734834] {}
+2015-09-28 13:46:54.633 Verrou[28223:734834] {}
+2015-09-28 13:47:25.651 Verrou[28312:735996] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/7E899DDD-3D59-4EA6-8485-3C026FA0A7BB/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:47:25.868 Verrou[28312:735996] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:47:25.869 Verrou[28312:735996] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:47:25.885 Verrou[28312:735996] Unlimited access to network resources
+2015-09-28 13:47:25.899 Verrou[28312:735996] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:47:25.989 Verrou[28312:735996] Cordova BLE Central Plugin
+2015-09-28 13:47:25.989 Verrou[28312:735996] (c)2014-2015 Don Coleman
+2015-09-28 13:47:26.005 Verrou[28312:735996] [CDVTimer][ble] 16.167998ms
+2015-09-28 13:47:26.005 Verrou[28312:735996] [CDVTimer][TotalPluginStartup] 16.488969ms
+2015-09-28 13:47:26.018 Verrou[28312:735996] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:47:26.018 Verrou[28312:735996] =============================================================
+2015-09-28 13:47:26.018 Verrou[28312:735996] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:47:26.018 Verrou[28312:735996] =============================================================
+2015-09-28 13:47:26.256 Verrou[28312:735996] Resetting plugins due to page load.
+2015-09-28 13:47:34.509 Verrou[28312:735996] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/1721AD70-D60A-4112-9BC3-EC8344D76615/Verrou.app/www/index.html
+2015-09-28 13:47:34.549 Verrou[28312:735996] device start
+2015-09-28 13:47:34.551 Verrou[28312:735996] app init
+2015-09-28 13:47:34.551 Verrou[28312:735996] bind start
+2015-09-28 13:47:34.551 Verrou[28312:735996] bind end
+2015-09-28 13:47:34.551 Verrou[28312:735996] app init end
+2015-09-28 13:47:34.551 Verrou[28312:735996] device end
+2015-09-28 13:47:36.355 Verrou[28312:735996] {}
+2015-09-28 13:48:41.070 Verrou[28392:736824] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/A1F6211F-A717-4DF4-B6B9-BAC730F21ED9/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:48:41.239 Verrou[28392:736824] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:48:41.239 Verrou[28392:736824] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:48:41.249 Verrou[28392:736824] Unlimited access to network resources
+2015-09-28 13:48:41.260 Verrou[28392:736824] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:48:41.344 Verrou[28392:736824] Cordova BLE Central Plugin
+2015-09-28 13:48:41.344 Verrou[28392:736824] (c)2014-2015 Don Coleman
+2015-09-28 13:48:41.393 Verrou[28392:736824] [CDVTimer][ble] 48.528016ms
+2015-09-28 13:48:41.393 Verrou[28392:736824] [CDVTimer][TotalPluginStartup] 48.785985ms
+2015-09-28 13:48:41.406 Verrou[28392:736824] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:48:41.406 Verrou[28392:736824] =============================================================
+2015-09-28 13:48:41.406 Verrou[28392:736824] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:48:41.406 Verrou[28392:736824] =============================================================
+2015-09-28 13:48:41.644 Verrou[28392:736824] Resetting plugins due to page load.
+2015-09-28 13:48:46.305 Verrou[28392:736824] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/56C82D32-A9A6-4D99-89E1-EFA5C961A535/Verrou.app/www/index.html
+2015-09-28 13:48:46.342 Verrou[28392:736824] device start
+2015-09-28 13:48:46.345 Verrou[28392:736824] app init
+2015-09-28 13:48:46.345 Verrou[28392:736824] bind start
+2015-09-28 13:48:46.345 Verrou[28392:736824] bind end
+2015-09-28 13:48:46.345 Verrou[28392:736824] app init end
+2015-09-28 13:48:46.345 Verrou[28392:736824] device end
+2015-09-28 13:48:48.047 Verrou[28392:736824] {}
+2015-09-28 13:48:48.047 Verrou[28392:736824] scan
+2015-09-28 13:48:48.047 Verrou[28392:736824] true
+2015-09-28 13:48:48.048 Verrou[28392:736824] scan start
+2015-09-28 13:48:48.066 Verrou[28392:736824] scan
+2015-09-28 13:48:48.103 Verrou[28392:736824] THREAD WARNING: ['BLE'] took '55.572998' ms. Plugin should use a background thread.
+2015-09-28 13:48:53.104 Verrou[28392:736824] stopScanTimer
+2015-09-28 13:51:56.325 Verrou[28392:736824] {}
+2015-09-28 13:51:56.325 Verrou[28392:736824] scan
+2015-09-28 13:51:56.325 Verrou[28392:736824] true
+2015-09-28 13:51:56.325 Verrou[28392:736824] scan start
+2015-09-28 13:51:56.325 Verrou[28392:736824] scan
+2015-09-28 13:52:01.326 Verrou[28392:736824] stopScanTimer
+2015-09-28 13:54:55.833 Verrou[28585:739205] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/CEC13889-9F47-447A-B2FA-5409526E3550/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:54:55.943 Verrou[28585:739205] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:54:55.943 Verrou[28585:739205] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:54:55.950 Verrou[28585:739205] Unlimited access to network resources
+2015-09-28 13:54:55.952 Verrou[28585:739205] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:54:56.027 Verrou[28585:739205] Cordova BLE Central Plugin
+2015-09-28 13:54:56.028 Verrou[28585:739205] (c)2014-2015 Don Coleman
+2015-09-28 13:54:56.029 Verrou[28585:739205] [CDVTimer][ble] 1.951993ms
+2015-09-28 13:54:56.030 Verrou[28585:739205] [CDVTimer][TotalPluginStartup] 2.240002ms
+2015-09-28 13:54:56.060 Verrou[28585:739205] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:54:56.061 Verrou[28585:739205] =============================================================
+2015-09-28 13:54:56.061 Verrou[28585:739205] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:54:56.061 Verrou[28585:739205] =============================================================
+2015-09-28 13:54:56.090 Verrou[28585:739205] Resetting plugins due to page load.
+2015-09-28 13:54:59.037 Verrou[28585:739205] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/6381D5FD-1EE2-4F7B-9429-AC32BBC96A5C/Verrou.app/www/index.html
+2015-09-28 13:54:59.061 Verrou[28585:739205] device start
+2015-09-28 13:54:59.063 Verrou[28585:739205] device end
+2015-09-28 13:55:01.263 Verrou[28585:739205] {}
+2015-09-28 13:55:01.263 Verrou[28585:739205] scan event
+2015-09-28 13:55:01.264 Verrou[28585:739205] true
+2015-09-28 13:55:01.264 Verrou[28585:739205] scan start
+2015-09-28 13:55:01.264 Verrou[28585:739205] scan
+2015-09-28 13:55:05.043 Verrou[28585:739205] {}
+2015-09-28 13:55:05.043 Verrou[28585:739205] scan event blink
+2015-09-28 13:55:05.043 Verrou[28585:739205] true
+2015-09-28 13:55:05.044 Verrou[28585:739205] scan start
+2015-09-28 13:55:05.044 Verrou[28585:739205] scan
+2015-09-28 13:55:06.265 Verrou[28585:739205] stopScanTimer
+2015-09-28 13:55:10.044 Verrou[28585:739205] stopScanTimer
+2015-09-28 13:55:12.619 Verrou[28585:739205] {}
+2015-09-28 13:55:12.619 Verrou[28585:739205] scan event blink blink
+2015-09-28 13:55:12.619 Verrou[28585:739205] true
+2015-09-28 13:55:12.619 Verrou[28585:739205] scan start
+2015-09-28 13:55:12.619 Verrou[28585:739205] scan
+2015-09-28 13:55:17.620 Verrou[28585:739205] stopScanTimer
+2015-09-28 13:56:57.805 Verrou[28682:740089] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/1B852E73-4444-4EDF-ABEF-08D940769D54/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:56:57.916 Verrou[28682:740089] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:56:57.916 Verrou[28682:740089] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:56:57.924 Verrou[28682:740089] Unlimited access to network resources
+2015-09-28 13:56:57.926 Verrou[28682:740089] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:56:58.002 Verrou[28682:740089] Cordova BLE Central Plugin
+2015-09-28 13:56:58.002 Verrou[28682:740089] (c)2014-2015 Don Coleman
+2015-09-28 13:56:58.003 Verrou[28682:740089] [CDVTimer][ble] 1.652002ms
+2015-09-28 13:56:58.004 Verrou[28682:740089] [CDVTimer][TotalPluginStartup] 1.815021ms
+2015-09-28 13:56:58.028 Verrou[28682:740089] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:56:58.028 Verrou[28682:740089] =============================================================
+2015-09-28 13:56:58.029 Verrou[28682:740089] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:56:58.029 Verrou[28682:740089] =============================================================
+2015-09-28 13:56:58.055 Verrou[28682:740089] Resetting plugins due to page load.
+2015-09-28 13:57:05.678 Verrou[28682:740089] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/C081A4BC-0495-4E89-8B43-527A04FE9430/Verrou.app/www/index.html
+2015-09-28 13:57:05.713 Verrou[28682:740089] device start
+2015-09-28 13:57:05.717 Verrou[28682:740089] device end
+2015-09-28 13:57:10.682 Verrou[28682:740089] {}
+2015-09-28 13:57:10.682 Verrou[28682:740089] scan event
+2015-09-28 13:57:10.682 Verrou[28682:740089] true
+2015-09-28 13:57:10.682 Verrou[28682:740089] scan start
+2015-09-28 13:57:10.683 Verrou[28682:740089] scan
+2015-09-28 13:57:15.684 Verrou[28682:740089] stopScanTimer
+2015-09-28 13:58:28.331 Verrou[28770:740959] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/90187BA4-E465-4E23-92B3-C61B09EEB1A2/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:58:28.437 Verrou[28770:740959] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:58:28.437 Verrou[28770:740959] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:58:28.444 Verrou[28770:740959] Unlimited access to network resources
+2015-09-28 13:58:28.447 Verrou[28770:740959] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:58:28.522 Verrou[28770:740959] Cordova BLE Central Plugin
+2015-09-28 13:58:28.522 Verrou[28770:740959] (c)2014-2015 Don Coleman
+2015-09-28 13:58:28.524 Verrou[28770:740959] [CDVTimer][ble] 1.626968ms
+2015-09-28 13:58:28.524 Verrou[28770:740959] [CDVTimer][TotalPluginStartup] 1.775980ms
+2015-09-28 13:58:28.555 Verrou[28770:740959] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:58:28.555 Verrou[28770:740959] =============================================================
+2015-09-28 13:58:28.555 Verrou[28770:740959] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:58:28.555 Verrou[28770:740959] =============================================================
+2015-09-28 13:58:28.581 Verrou[28770:740959] Resetting plugins due to page load.
+2015-09-28 13:58:34.259 Verrou[28770:740959] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/52465D4A-DA86-4A03-BA19-D43C1545A53F/Verrou.app/www/index.html
+2015-09-28 13:58:34.299 Verrou[28770:740959] device start
+2015-09-28 13:58:34.302 Verrou[28770:740959] device end
+2015-09-28 13:58:36.914 Verrou[28770:740959] {}
+2015-09-28 13:58:36.915 Verrou[28770:740959] scan event
+2015-09-28 13:58:36.915 Verrou[28770:740959] true
+2015-09-28 13:58:36.915 Verrou[28770:740959] scan start
+2015-09-28 13:58:36.916 Verrou[28770:740959] scan
+2015-09-28 13:58:41.917 Verrou[28770:740959] stopScanTimer
+2015-09-28 13:59:19.122 Verrou[28834:741629] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/BD00D1E0-1423-4181-8D56-D6FC37594F98/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:59:19.230 Verrou[28834:741629] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:59:19.230 Verrou[28834:741629] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:59:19.231 Verrou[28834:741629] Unlimited access to network resources
+2015-09-28 13:59:19.234 Verrou[28834:741629] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:59:19.311 Verrou[28834:741629] Cordova BLE Central Plugin
+2015-09-28 13:59:19.311 Verrou[28834:741629] (c)2014-2015 Don Coleman
+2015-09-28 13:59:19.313 Verrou[28834:741629] [CDVTimer][ble] 2.020001ms
+2015-09-28 13:59:19.313 Verrou[28834:741629] [CDVTimer][TotalPluginStartup] 2.204001ms
+2015-09-28 13:59:19.337 Verrou[28834:741629] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:59:19.337 Verrou[28834:741629] =============================================================
+2015-09-28 13:59:19.337 Verrou[28834:741629] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:59:19.337 Verrou[28834:741629] =============================================================
+2015-09-28 13:59:19.363 Verrou[28834:741629] Resetting plugins due to page load.
+2015-09-28 13:59:19.409 Verrou[28834:741629] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/B747D92D-5DE6-495A-AA31-E297DDE66BB6/Verrou.app/www/index.html
+2015-09-28 13:59:38.023 Verrou[28871:742100] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/5E05D4E8-4439-4610-8DE0-64EFA97CB1A7/Library/Cookies/Cookies.binarycookies
+2015-09-28 13:59:38.147 Verrou[28871:742100] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 13:59:38.147 Verrou[28871:742100] Multi-tasking -> Device: YES, App: YES
+2015-09-28 13:59:38.149 Verrou[28871:742100] Unlimited access to network resources
+2015-09-28 13:59:38.151 Verrou[28871:742100] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 13:59:38.229 Verrou[28871:742100] Cordova BLE Central Plugin
+2015-09-28 13:59:38.229 Verrou[28871:742100] (c)2014-2015 Don Coleman
+2015-09-28 13:59:38.231 Verrou[28871:742100] [CDVTimer][ble] 1.770020ms
+2015-09-28 13:59:38.231 Verrou[28871:742100] [CDVTimer][TotalPluginStartup] 1.974046ms
+2015-09-28 13:59:38.255 Verrou[28871:742100] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 13:59:38.255 Verrou[28871:742100] =============================================================
+2015-09-28 13:59:38.255 Verrou[28871:742100] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 13:59:38.255 Verrou[28871:742100] =============================================================
+2015-09-28 13:59:38.282 Verrou[28871:742100] Resetting plugins due to page load.
+2015-09-28 13:59:38.326 Verrou[28871:742100] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/8673E40E-53F3-4475-A4C3-09A29C40C3C7/Verrou.app/www/index.html
+2015-09-28 14:00:11.649 Verrou[28984:742929] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/B03FF850-22BA-4865-8FE1-D15769DAF8E2/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:00:11.874 Verrou[28984:742929] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:00:11.889 Verrou[28984:742929] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:00:11.920 Verrou[28984:742929] Unlimited access to network resources
+2015-09-28 14:00:12.002 Verrou[28984:742929] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:00:12.350 Verrou[28984:742929] Cordova BLE Central Plugin
+2015-09-28 14:00:12.351 Verrou[28984:742929] (c)2014-2015 Don Coleman
+2015-09-28 14:00:12.471 Verrou[28984:742929] [CDVTimer][ble] 120.373011ms
+2015-09-28 14:00:12.471 Verrou[28984:742929] [CDVTimer][TotalPluginStartup] 120.800018ms
+2015-09-28 14:00:12.483 Verrou[28984:742929] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:00:12.483 Verrou[28984:742929] =============================================================
+2015-09-28 14:00:12.483 Verrou[28984:742929] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:00:12.483 Verrou[28984:742929] =============================================================
+2015-09-28 14:00:13.505 Verrou[28984:742929] Resetting plugins due to page load.
+2015-09-28 14:00:19.473 Verrou[28984:742929] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/984761D1-A7EE-4A9D-9760-4A52F4183A7A/Verrou.app/www/index.html
+2015-09-28 14:00:19.533 Verrou[28984:742929] device start
+2015-09-28 14:00:19.535 Verrou[28984:742929] device end
+2015-09-28 14:00:21.593 Verrou[28984:742929] {}
+2015-09-28 14:00:21.593 Verrou[28984:742929] scan event
+2015-09-28 14:00:21.593 Verrou[28984:742929] true
+2015-09-28 14:00:21.593 Verrou[28984:742929] scan start
+2015-09-28 14:00:23.605 Verrou[28984:742929] THREAD WARNING: ['BLE'] took '2011.974854' ms. Plugin should use a background thread.
+2015-09-28 14:00:23.609 Verrou[28984:742929] scan
+2015-09-28 14:00:23.609 Verrou[28984:742929] 2
+2015-09-28 14:00:28.610 Verrou[28984:742929] stopScanTimer
+2015-09-28 14:42:44.771 Verrou[29646:754269] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/45427CBC-48F5-430A-B511-A1176865E295/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:42:45.006 Verrou[29646:754269] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:42:45.007 Verrou[29646:754269] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:42:45.022 Verrou[29646:754269] Unlimited access to network resources
+2015-09-28 14:42:45.037 Verrou[29646:754269] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:42:45.152 Verrou[29646:754269] Cordova BLE Central Plugin
+2015-09-28 14:42:45.152 Verrou[29646:754269] (c)2014-2015 Don Coleman
+2015-09-28 14:42:45.169 Verrou[29646:754269] [CDVTimer][ble] 17.327011ms
+2015-09-28 14:42:45.170 Verrou[29646:754269] [CDVTimer][TotalPluginStartup] 17.780006ms
+2015-09-28 14:42:45.183 Verrou[29646:754269] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:42:45.183 Verrou[29646:754269] =============================================================
+2015-09-28 14:42:45.183 Verrou[29646:754269] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:42:45.184 Verrou[29646:754269] =============================================================
+2015-09-28 14:42:45.674 Verrou[29646:754269] Resetting plugins due to page load.
+2015-09-28 14:42:45.783 Verrou[29646:754269] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/BB4CC1E3-16B4-4B88-8237-2FB0663D1A48/Verrou.app/www/index.html
+2015-09-28 14:43:29.818 Verrou[29713:754914] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/33022725-A03B-4C6B-ABC4-616AE8A1764D/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:43:29.903 Verrou[29713:754914] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:43:29.903 Verrou[29713:754914] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:43:30.000 Verrou[29713:754914] Unlimited access to network resources
+2015-09-28 14:43:30.003 Verrou[29713:754914] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:43:30.090 Verrou[29713:754914] Cordova BLE Central Plugin
+2015-09-28 14:43:30.090 Verrou[29713:754914] (c)2014-2015 Don Coleman
+2015-09-28 14:43:30.091 Verrou[29713:754914] [CDVTimer][ble] 1.523972ms
+2015-09-28 14:43:30.092 Verrou[29713:754914] [CDVTimer][TotalPluginStartup] 1.733005ms
+2015-09-28 14:43:30.102 Verrou[29713:754914] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:43:30.102 Verrou[29713:754914] =============================================================
+2015-09-28 14:43:30.102 Verrou[29713:754914] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:43:30.102 Verrou[29713:754914] =============================================================
+2015-09-28 14:43:30.145 Verrou[29713:754914] Resetting plugins due to page load.
+2015-09-28 14:43:30.194 Verrou[29713:754914] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/81C8AAA0-8C63-48DB-9CD0-744AB0B72C0C/Verrou.app/www/index.html
+2015-09-28 14:44:22.463 Verrou[29796:755652] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/7436C9AE-C84A-4DB6-8DAE-E058F9826A89/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:44:22.573 Verrou[29796:755652] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:44:22.573 Verrou[29796:755652] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:44:22.582 Verrou[29796:755652] Unlimited access to network resources
+2015-09-28 14:44:22.585 Verrou[29796:755652] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:44:22.661 Verrou[29796:755652] Cordova BLE Central Plugin
+2015-09-28 14:44:22.661 Verrou[29796:755652] (c)2014-2015 Don Coleman
+2015-09-28 14:44:22.662 Verrou[29796:755652] [CDVTimer][ble] 1.681030ms
+2015-09-28 14:44:22.662 Verrou[29796:755652] [CDVTimer][TotalPluginStartup] 1.864016ms
+2015-09-28 14:44:22.689 Verrou[29796:755652] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:44:22.689 Verrou[29796:755652] =============================================================
+2015-09-28 14:44:22.689 Verrou[29796:755652] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:44:22.689 Verrou[29796:755652] =============================================================
+2015-09-28 14:44:22.718 Verrou[29796:755652] Resetting plugins due to page load.
+2015-09-28 14:44:22.812 Verrou[29796:755652] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/4B9CDE47-DCE8-4D23-809E-8B3DF552F31A/Verrou.app/www/index.html
+2015-09-28 14:44:49.016 Verrou[29855:756131] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/6942A5CE-573E-4170-BE00-3095C353D9F4/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:44:49.104 Verrou[29855:756131] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:44:49.105 Verrou[29855:756131] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:44:49.106 Verrou[29855:756131] Unlimited access to network resources
+2015-09-28 14:44:49.109 Verrou[29855:756131] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:44:49.185 Verrou[29855:756131] Cordova BLE Central Plugin
+2015-09-28 14:44:49.185 Verrou[29855:756131] (c)2014-2015 Don Coleman
+2015-09-28 14:44:49.187 Verrou[29855:756131] [CDVTimer][ble] 1.663983ms
+2015-09-28 14:44:49.187 Verrou[29855:756131] [CDVTimer][TotalPluginStartup] 1.819015ms
+2015-09-28 14:44:49.214 Verrou[29855:756131] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:44:49.214 Verrou[29855:756131] =============================================================
+2015-09-28 14:44:49.214 Verrou[29855:756131] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:44:49.214 Verrou[29855:756131] =============================================================
+2015-09-28 14:44:49.241 Verrou[29855:756131] Resetting plugins due to page load.
+2015-09-28 14:44:49.285 Verrou[29855:756131] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/B513A5FF-6377-422B-90DC-C7EEDAD2E7C5/Verrou.app/www/index.html
+2015-09-28 14:45:31.599 Verrou[29921:756734] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/3392BAA6-AA4E-461A-80C4-F16165D074AA/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:45:31.710 Verrou[29921:756734] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:45:31.710 Verrou[29921:756734] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:45:31.712 Verrou[29921:756734] Unlimited access to network resources
+2015-09-28 14:45:31.714 Verrou[29921:756734] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:45:31.791 Verrou[29921:756734] Cordova BLE Central Plugin
+2015-09-28 14:45:31.791 Verrou[29921:756734] (c)2014-2015 Don Coleman
+2015-09-28 14:45:31.793 Verrou[29921:756734] [CDVTimer][ble] 1.573980ms
+2015-09-28 14:45:31.793 Verrou[29921:756734] [CDVTimer][TotalPluginStartup] 1.727045ms
+2015-09-28 14:45:31.823 Verrou[29921:756734] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:45:31.823 Verrou[29921:756734] =============================================================
+2015-09-28 14:45:31.823 Verrou[29921:756734] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:45:31.823 Verrou[29921:756734] =============================================================
+2015-09-28 14:45:31.850 Verrou[29921:756734] Resetting plugins due to page load.
+2015-09-28 14:45:31.899 Verrou[29921:756734] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/04EE43E1-1440-4453-A532-49F92E5014D4/Verrou.app/www/index.html
+2015-09-28 14:46:25.997 Verrou[29986:757354] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/B2117E4E-134D-4AF6-81CD-6BC049E5F28C/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:46:26.109 Verrou[29986:757354] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:46:26.110 Verrou[29986:757354] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:46:26.111 Verrou[29986:757354] Unlimited access to network resources
+2015-09-28 14:46:26.113 Verrou[29986:757354] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:46:26.190 Verrou[29986:757354] Cordova BLE Central Plugin
+2015-09-28 14:46:26.190 Verrou[29986:757354] (c)2014-2015 Don Coleman
+2015-09-28 14:46:26.192 Verrou[29986:757354] [CDVTimer][ble] 1.909018ms
+2015-09-28 14:46:26.192 Verrou[29986:757354] [CDVTimer][TotalPluginStartup] 2.142966ms
+2015-09-28 14:46:26.219 Verrou[29986:757354] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:46:26.219 Verrou[29986:757354] =============================================================
+2015-09-28 14:46:26.219 Verrou[29986:757354] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:46:26.219 Verrou[29986:757354] =============================================================
+2015-09-28 14:46:26.244 Verrou[29986:757354] Resetting plugins due to page load.
+2015-09-28 14:46:36.949 Verrou[29986:757388] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-09-28 14:46:36.973 Verrou[29986:757354] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/A3A9D7F1-298F-4516-A85F-5F71A1F0B3E0/Verrou.app/www/index.html
+2015-09-28 14:46:37.010 Verrou[29986:757354] device start
+2015-09-28 14:46:37.014 Verrou[29986:757354] device end
+2015-09-28 14:46:39.605 Verrou[29986:757354] scan start
+2015-09-28 14:47:02.093 Verrou[30039:757904] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Data/Application/BE747C40-FA60-47E6-8DB0-AACDBBB65954/Library/Cookies/Cookies.binarycookies
+2015-09-28 14:47:02.155 Verrou[30039:757904] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-28 14:47:02.155 Verrou[30039:757904] Multi-tasking -> Device: YES, App: YES
+2015-09-28 14:47:02.186 Verrou[30039:757904] Unlimited access to network resources
+2015-09-28 14:47:02.189 Verrou[30039:757904] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-09-28 14:47:02.262 Verrou[30039:757904] Cordova BLE Central Plugin
+2015-09-28 14:47:02.262 Verrou[30039:757904] (c)2014-2015 Don Coleman
+2015-09-28 14:47:02.264 Verrou[30039:757904] [CDVTimer][ble] 1.900971ms
+2015-09-28 14:47:02.264 Verrou[30039:757904] [CDVTimer][TotalPluginStartup] 2.092004ms
+2015-09-28 14:47:02.289 Verrou[30039:757904] Status of CoreBluetooth central manager changed 2 State BLE unsupported (CBCentralManagerStateResetting)
+2015-09-28 14:47:02.289 Verrou[30039:757904] =============================================================
+2015-09-28 14:47:02.289 Verrou[30039:757904] WARNING: This hardware does not support Bluetooth Low Energy.
+2015-09-28 14:47:02.289 Verrou[30039:757904] =============================================================
+2015-09-28 14:47:02.309 Verrou[30039:757904] Resetting plugins due to page load.
+2015-09-28 14:47:07.548 Verrou[30039:757904] Finished load of: file:///Users/lodgem/Library/Developer/CoreSimulator/Devices/3BD49DFB-87B6-439D-8A75-5A6CC8096116/data/Containers/Bundle/Application/769EF724-9ABD-4015-9CE8-926A86B58340/Verrou.app/www/index.html
+2015-09-28 14:47:07.585 Verrou[30039:757904] device start
+2015-09-28 14:47:07.587 Verrou[30039:757904] device end
+2015-09-28 14:47:11.199 Verrou[30039:757904] scan start
+2015-09-28 14:47:13.275 Verrou[30039:757904] THREAD WARNING: ['BLE'] took '2075.825195' ms. Plugin should use a background thread.

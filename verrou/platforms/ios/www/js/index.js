@@ -16,41 +16,83 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- alert("b");
+
+alert("wait");
+var ANDROID = "android";
+var IOS = "ios";
+var PLATFORM = IOS;
+var SEARCHTIME = 5;
+
+
+//var l = document.getElementById("logger");
+var log = function(obj){
+    console.log(obj);
+}
+
+
+// var ser = {
+//     hasClass: function(obj, class){
+//         if(obj.className) {
+//             return obj.className.indexOf(class) != -1;
+//         }
+//         return false;
+//     },
+//     find: function(obj, selector){
+//         return obj.querySelector(selector);
+//     }
+// };
+
+
 var app = {
-    // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        app.bindEvents();
     },
     // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.getElementById("appContainer").addEventListener("click", app.onClick, false);
     },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-
-        window.process(function(){
-            alert("success");
-        });
+        console.log("device start");
+        app.initialize();
+        console.log("device end");
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+    onResume: function() {
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+    },
+    onPause: function() {
 
-        console.log('Received Event: ' + id);
+    },
+    onClick: function(e) {
+        if(e.target.className.indexOf("scan") != -1){
+            console.log("scan start");
+            ble.isEnabled(function(b){
+                ble.scan([], 5, app.onDiscoverDevice, app.onError);
+            }, function(){
+                if(PLATFORM == ANDROID){
+                    ble.enable(function(){
+                        ble.scan([], 5, app.onDiscoverDevice, app.onError);
+                    }, app.onError);
+                } else {
+                    alert("Enable Bluetooth plz");
+                }
+            });
+        }
+    },
+    onDiscoverDevice: function(obj) {
+        console.log(obj);
+        alert("discover");
+    },
+    onError: function(err){
+        alert("error");
+        console.log(err);
+    },
+    replaceSection: function(sectionId, content) {
+        document.getElementById(sectionId).innerHTML(content);
     }
+
 };
 
-app.initialize();
+//initialize app on device ready
+document.addEventListener("deviceready", app.onDeviceReady, false);
+document.addEventListener("resume", app.onResume, false);
+document.addEventListener("pause", app.onPause, false);
